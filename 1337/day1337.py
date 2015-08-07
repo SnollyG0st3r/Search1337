@@ -47,8 +47,3 @@ class B3mB4m(object):
 					else:	
 						print searchtitle
 				print "%s\n" % str(cut)
-
-
-
-
-
