@@ -10,7 +10,7 @@ Well as you know 1337day closed.So new domain 0day.today, I made some edit for i
 
     root@root:~/Desktop# git clone https://github.com/b3mb4m/Search1337.git 
     root@root:~/Desktop# cd Search1337
-    root@root:~/Desktop/1337# python setup.py install
+    root@root:~/Desktop/Search1337# python setup.py install
     
     Or,
     
