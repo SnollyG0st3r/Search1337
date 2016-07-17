@@ -3,9 +3,6 @@
 ![alt tag](http://i.hizliresim.com/JkBWAo.jpg)
 
 
-Well as you know 1337day closed.So new domain 0day.today, I made some edit for it  .. 
-
-
 #Installation guide
 
     root@root:~/Desktop# git clone https://github.com/b3mb4m/Search1337.git 
@@ -14,57 +11,25 @@ Well as you know 1337day closed.So new domain 0day.today, I made some edit for i
     
     Or,
     
-    root@root:~/Desktop# pip install search1337
+    root@root:~/Desktop# pip install search1337(version 0.1, will be update to v2 soon.)
     
+    Or use without install,
+    
+    root@root~/Desktop# cd search1337-master
+    root@root~/Desktop/search1337-master# python search1337.py
+
     
     
 # Help
-    root@root:~/Desktop# search1337
-     _____     _           _      _ 
-    |_   _|  _| |_ ___ _ _(_)__ _| |
-      | || || |  _/ _ \ '_| / _` | |
-      |_| \_,_|\__\___/_| |_\__,_|_|
-                                    
-                         
-    	search1337 --e [SEARCH TAG]
-    				
-    Also you can append CVE number.
-    	search1337 --e [SEARCH TAG] --cve [CVE]
-    
-    You must read it, if you dont have any idea about CVE.	
-    	http://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures
-    
+     _____                 _   ___   ___ ___ ___
+    |   __|___ ___ ___ ___| |_|_  | |_  |_  |_  |
+    |__   | -_| .'|  _|  _|   |_| |_|_  |_  | | |
+    |_____|___|__,|_| |___|_|_|_____|___|___| |_|
 
-# Usage Type
-    root@root:~/Desktop# search1337 --e Python
-    Endian Firewall &lt; 3.0.0 - OS Command Injection (Python PoC) Exploit
-    http://0day.today/exploit/23824
-        
-    Python socket.recvfrom_into() remote buffer overflow exploit
-    http://0day.today/exploit/21938
-        
-    This exploit is private, cant get name..
-    http://0day.today/exploit/20996
-        
-    Debian OpenSSL Predictable PRNG Bruteforce SSH Exploit (Python)
-    http://0day.today/exploit/9201
-        
-    Python Untrusted Search Path/Code Execution Vulnerability
-    http://0day.today/exploit/18938
 
-    ...
-    
-    
-    
-    Python - Interpreter Heap Memory Corruption (PoC)
-    http://0day.today/exploit/22241
-    
-    PyPAM Python bindings for PAM Double Free Corruption
-    http://0day.today/exploit/17653
-    
-    Python < 2.5.2 Imageop Module 'imageop.crop()' BOF Vulnerability
-    http://0day.today/exploit/9791
-    
-    linux/x86 Run /usr/bin/python | setreuid(),execve() - 54 Bytes
-    http://0day.today/exploit/22502
+        usage: search1337 [-e] [-a] [-d] [-o]
 
+        -e, --exploit   Exploit name to search or download
+        -a, --all       Download all exploit according to "-e" tag
+        -d, --download  Initialization download mode, if not will print everything
+        -o, --output    Output path(with "-a" tag) or file(without "-a" tag)
