@@ -9,8 +9,16 @@ setup(
             'search1337 = 1337.call:main',
         ]
     },
-    version = "0.1",
-    description = "Python 1337Day Exploit Scanner",
+    
+    install_requires=[
+            "bs4",
+            "mechanize",
+        ],
+
+
+
+    version = "0.2",
+    description = "Online, lightweight exploit scanner and downloader.",
     author = "B3mB4m",
-    author_email = "b3mb4m@gmail.com",
+    author_email = "b3mb4m@protonmail.com",
     )
